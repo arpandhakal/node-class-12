@@ -4,7 +4,7 @@ const userRouter = require("./src/routes/userRouter");
 const port = 5656;
 
 app.get("/", (req, res, next) => {
-  res.json({ message: "Hello world" });
+  res.json({ message: "Hello" });
 });
 
 app.use((req, res, next) => {
